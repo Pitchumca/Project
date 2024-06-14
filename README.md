@@ -13,9 +13,7 @@ Key Steps
         Load the dataset, handle missing values, and convert categorical features to numeric using one-hot encoding.
         Split the data into initial observed and unobserved sets for the Active Feature Elicitation process.
 
-    Feature Extraction Using RDKit
-        Convert SMILES strings to molecular descriptors using RDKit to generate relevant chemical features.
-        This step is crucial for understanding the chemical properties of the data points, although primarily used for drug discovery, it demonstrates the capability of using chemical features in financial predictions.
+    
 
     Active Feature Elicitation with DQN
         Implement a custom environment for feature selection using Gymnasium.
@@ -34,7 +32,6 @@ Tools and Technologies
 
     Python: Programming language used for data processing, model training, and evaluation.
     Pandas: For data manipulation and preprocessing.
-    RDKit: For chemical feature extraction.
     Gymnasium: For creating a custom environment for reinforcement learning.
     Stable Baselines3: For implementing and training the DQN agent.
     Scikit-learn: For machine learning model implementation (RandomForestRegressor).
